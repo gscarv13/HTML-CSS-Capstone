@@ -56,9 +56,13 @@ san-serif;
     padding-right: 4rem;
 }
 
-%flex-between{
+%flex-between {
     display: flex;
     justify-content: space-between;
+}
+%flex-column{
+    display: flex;
+    flex-direction: column;
 }
 
 
@@ -74,6 +78,7 @@ a {
 main {
     background-color: #eee;
 }
+
 /* NAVIGATION BAR*/
 
 nav {
@@ -90,7 +95,7 @@ nav {
         font-family: $gotham-light;
     }
 
-    .link-highlight{
+    .link-highlight {
         color: $pink;
     }
 }
@@ -99,33 +104,60 @@ nav {
 
 /* DEPARTMENT SECTION*/
 
-.grid{
+.grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     padding: 1rem;
 }
 
-.card{
+.card {
     max-width: 400px;
     border: $gray 1px solid;
     padding: 1rem;
     object-fit: cover;
 }
 
-.card-img{
+.card-img {
     width: 100%;
-    height: 100%;}
+    height: 100%;
+}
 
-.card-price{
+.card-price {
     @extend %flex-between;
 }
 
-footer{
+.about {
+    grid-area: about;
+}
+
+.footer-categories {
+    @extend %flex-column;
+    grid-area: categories;
+}
+
+.footer-navigation {
+    @extend %flex-column;
+    grid-area: navigation;
+}
+
+.footer-btn {
+    @extend %flex-column;
+    grid-area: btns;
+}
+
+.copyright {
+    grid-area: copyr;
+}
+
+footer {
+    display: grid;
+    grid-template-areas: 'about about about' 'navigation categories categories' 'btn btn btn' 'copyr copyr copyr';
     text-align: center;
 }
 
-@media only screen and (max-width: 767px){
-    .d-mobile-none{
+
+@media only screen and (max-width: 767px) {
+    .d-mobile-none {
         display: none;
     }
 }
