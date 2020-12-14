@@ -1,3 +1,91 @@
+@font-face {
+  font-family: "Gotham Bold";
+  src: url(../font/GothamBold.ttf);
+}
+@font-face {
+  font-family: "Gotham Rounded Light";
+  src: url(../font/GothamRoundedLight.otf);
+}
+@font-face {
+  font-family: "Helvetica Light";
+  src: url(../font/HelveticaLight.ttf);
+}
+@font-face {
+  font-family: "Helvetica Medium";
+  src: url(../font/HelveticaMedium.ttf);
+}
+@font-face {
+  font-family: "Helvetica Bold";
+  src: url(../font/HelveticaBold.ttf);
+}
+/* VARIALBES */
+/* General utilities*/
+nav {
+  padding-left: 3rem;
+  padding-right: 3rem;
+}
 
+.card-price, nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+a {
+  text-decoration: none;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  background-color: #eee;
+}
+
+/* NAVIGATION BAR*/
+nav {
+  height: 60px;
+  align-items: center;
+  background-color: #383838;
+}
+nav a {
+  color: #888;
+  font-size: 15px;
+  font-family: "Gotham Rounded Light", san-serif;
+}
+nav .link-highlight {
+  color: #d35266;
+}
+
+/* HEADER */
+/* DEPARTMENT SECTION*/
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  padding: 1rem;
+}
+
+.card {
+  max-width: 400px;
+  border: #888 1px solid;
+  padding: 1rem;
+  object-fit: cover;
+}
+
+.card-img {
+  width: 100%;
+  height: 100%;
+}
+
+footer {
+  text-align: center;
+}
+
+@media only screen and (max-width: 767px) {
+  .d-mobile-none {
+    display: none;
+  }
+}
 
 /*# sourceMappingURL=style.css.map */
