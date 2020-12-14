@@ -36,7 +36,7 @@ $helvetica-l: 'Helvetica Light',
 san-serif;
 $helvetica-m:'Helvetica Medium',
 san-serif;
-$helvetica-m:'Helvetica Bold',
+$helvetica-b:'Helvetica Bold',
 san-serif;
 
 /* General utilities*/
@@ -60,7 +60,8 @@ san-serif;
     display: flex;
     justify-content: space-between;
 }
-%flex-column{
+
+%flex-column {
     display: flex;
     flex-direction: column;
 }
@@ -73,6 +74,7 @@ a {
 * {
     margin: 0;
     padding: 0;
+    font-family: $gotham-light;
 }
 
 main {
@@ -103,28 +105,74 @@ nav {
 /* HEADER */
 
 /* DEPARTMENT SECTION*/
+.dept-header {
+    padding-top: 20px;
+    padding-bottom: 15px;
+    margin-left: 30px;
+    margin-right: 30px;
+    font-family: $gotham-bold;
+    border-bottom: solid 0.5px $gray;
+}
 
 .grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    padding: 1rem;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    grid-gap: 20px;
+    padding: 30px;
+    justify-content: stretch;
 }
 
 .card {
-    max-width: 400px;
+    background-color: #fff;
     border: $gray 1px solid;
     padding: 1rem;
-    object-fit: cover;
 }
 
+.product-info {
+    font-family: $gotham-light;
+    line-height: 1.3;
+
+    h4 {
+        a {
+            color: $dark;
+        }
+    }
+
+    p {
+        font-size: 12px;
+    }
+}
+
+.tag {
+    font-size: 14px;
+    color: $pink;
+    font-family: $gotham-bold;
+}
+
+
 .card-img {
-    width: 100%;
-    height: 100%;
+    height: 274px;
 }
 
 .card-price {
     @extend %flex-between;
+
+    padding-top: 10px;
 }
+
+.sign {
+    border: $gray solid 0.3px;
+    padding: 0 3px;
+    font-size: 15px;
+}
+
+.price {
+    font-family: $gotham-bold;
+    color: $pink;
+}
+
+/*FOOTER*/
 
 .about {
     grid-area: about;
@@ -151,7 +199,7 @@ nav {
 
 footer {
     display: grid;
-    grid-template-areas: 'about about about' 'navigation categories categories' 'btn btn btn' 'copyr copyr copyr';
+    grid-template-areas: 'about about about''navigation categories categories''btn btn btn''copyr copyr copyr';
     text-align: center;
 }
 
