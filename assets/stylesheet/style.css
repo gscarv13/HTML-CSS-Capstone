@@ -46,7 +46,7 @@ a {
 }
 
 main {
-  background-color: #eee;
+  background-color: #fafafa;
 }
 
 /* NAVIGATION BAR*/
@@ -59,6 +59,9 @@ nav a {
   color: #888;
   font-size: 15px;
   font-family: "Gotham Rounded Light", san-serif;
+}
+nav a img {
+  width: 65px;
 }
 nav .link-highlight {
   color: #d35266;
@@ -76,17 +79,18 @@ nav .link-highlight {
 }
 
 .grid {
+  margin: 0 auto;
+  max-width: 1000px;
   display: grid;
-  grid-template-columns: 1fr;
-  grid-template-rows: 1fr;
-  grid-gap: 20px;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 20px;
   padding: 30px;
-  justify-content: stretch;
 }
 
 .card {
   background-color: #fff;
-  border: #888 1px solid;
+  border: #ddd 1px solid;
+  box-shadow: 0 1px 3px rgba(192, 190, 190, 0.52);
   padding: 1rem;
 }
 
@@ -108,7 +112,9 @@ nav .link-highlight {
 }
 
 .card-img {
-  height: 274px;
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
 }
 
 .card-price {
