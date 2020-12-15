@@ -149,8 +149,22 @@ nav .link-highlight {
 
 footer {
   display: grid;
-  grid-template-areas: "about about about" "navigation categories categories" "btn btn btn" "copyr copyr copyr";
+  grid-template-areas: "about about about" "navigation categories categories" "btns btns btns" "copyr copyr copyr";
   text-align: center;
+}
+
+/*----- RESULT PAGE ----- */
+.result-row {
+  display: flex;
+  align-items: center;
+}
+
+.result-img img {
+  width: 130px;
+}
+
+.result-txt {
+  font-size: 15px;
 }
 
 @media only screen and (max-width: 767px) {
