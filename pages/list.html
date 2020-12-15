@@ -6,23 +6,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="../assets/stylesheet/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Audiowide&display=swap" rel="stylesheet">
     <title>Ampert</title>
 </head>
+
 <body>
     <nav>
-        <a href="#" class="logo"><img src="" alt="logo"></a>
+        <a href="#" class="logo"><img src="../assets/img/logo.png" alt="logo"></a>
 
 
         <a href="#" class="link-highlight"><i class="fa fa-home" aria-hidden="true"></i> Home</a>
         <a href="#"><i class="fa fa-hashtag" aria-hidden="true"></i> Collections</a>
         <a href="#"><i class="fa fa-shopping-cart" aria-hidden="true"></i> Purchase List</a>
-        <a href="#" class="d-mobile-none">Post an AD</a>
+        <a href="#" class="d-mobile-none pink-btn">Post an AD</a>
 
 
-        <a href="#" class="d-mobile-none">Login</a>
+        <a href="#" class="d-mobile-none d-mid-none">Login</a>
     </nav>
     <header class="d-mobile-none">
-        <div calss="header-top">
+        <div class="header-top header-results">
             <h1>Ampert</h1>
             <h3>Audio is Power</h3>
 
@@ -37,26 +39,40 @@
 
                 <input type="text" placeholder="Any Particular Brand?">
                 <input type="text" placeholder="What are you looking for?">
-                <input type="submit" href="">
+                <button type="submit">Search</button>
             </form>
         </div>
     </header>
     <main>
-        <p>The results are...</p>
-        <div class="result-container">
-            <div class="card">
-                <div class="card-img-container">
-                    <img src="../assets/img/result1.jpg" class="card-img" alt="Headphone Razer Kraken X">
-                </div>
-                <div class="product-info">
-                    <h4><a href="#">Klipsch - Reference 4" 35W 2-Way Powered Monitors (Pair) - Black</a>
-                    </h4>
-                    <span class="tag">New</span>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis quas magnam reiciendis beatae laboriosam ratione sint veritatis rerum illo voluptate error illum labore praesentium provident itaque incidunt quam, suscipit omnis?</p>
-                    <p>From: <span>San Francisco, US</span></p>
-                    <div class="card-price">
-                        <span class="sign">+</span>
-                        <span class="price">$384.99</span>
+        <div class="container">
+            <div class="filter-section"></div>
+            <div class="result-container">
+                <p>The results are...</p>
+                <div class="grid grid-results">
+                    <div class="card card-result">
+                        <picture>
+                            <img src="../assets/img/result1.jpg" class="card-img" alt="Headphone Razer Kraken X">
+                        </picture>
+                        <div class="product-info info-result">
+                            <h4><a href="#">Reference 4" 35W 2-Way Powered Monitors</a>
+                            </h4>
+                            <span class="tag">New</span>
+                            <p class="text-result">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deserunt
+                                quia repellendus numquam
+                            </p>
+                            <p>Brand: <span>Klipsch</span></p>
+                            <div class="buy-links">
+                                <a href="#" class="price-btn">$99</a>
+                                <a href="#" class="buy-btn">
+                                    <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                                    Purchase Details
+                                </a>
+                            </div>
+                            <div class="card-price">
+                                <span class="sign">+</span>
+                                <span class="price">$44.99</span>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -64,7 +80,7 @@
     </main>
     <footer>
         <div class="about">
-            <h3>Ampert</h3>
+            <img src="../assets/img/logo.png" alt="company-logo" class="logo">
             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Debitis illum tempora sequi veritatis illo!
                 Dolorum sunt possimus vero, consequatur quo neque tenetur, totam cumque, rerum illum quia blanditiis
                 nisi ipsa dolor repellat?</p>
@@ -90,14 +106,15 @@
                 <li><a href="#">Help</a></li>
             </ul>
         </div>
-        <div class="footer-btn">
-            <p>COUNTRY <a href="#">U.S.</a></p>
-            <p>LANGUAGE <a href="#">English</a></p>
-            <p>CURRENCY <a href="#">U.S. Dolars</a></p>
+        <div class="footer-menu">
+            <div class="menu-btn">COUNTRY <a href="#" class="white-btn">U.S.</a></div>
+            <div class="menu-btn">LANGUAGE <a href="#" class="white-btn">English</a></div>
+            <div class="menu-btn">CURRENCY <a href="#" class="white-btn">U.S. Dolars</a></div>
         </div>
         <div class="copyright">
             <p>Copyright&copy; 2015 Ampert.com. All Rights Reserved. Designed by Mohammed Awad</p>
         </div>
     </footer>
 </body>
+
 </html>
