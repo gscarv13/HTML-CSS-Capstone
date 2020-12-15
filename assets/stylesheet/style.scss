@@ -66,6 +66,10 @@ san-serif;
     flex-direction: column;
 }
 
+%ul-style-none {
+    list-style: none;
+    text-decoration: none;
+}
 
 a {
     text-decoration: none;
@@ -117,9 +121,9 @@ nav {
     margin-right: 30px;
     font-family: $helvetica-b;
     border-bottom: solid 0.5px #ddd;
-    
+
     i {
-        margin-right: 10px ;
+        margin-right: 10px;
     }
 }
 
@@ -200,32 +204,134 @@ nav {
 /*FOOTER*/
 
 .about {
+    margin: 0 auto;
     grid-area: about;
+    width: 350px;
+
+    p {
+        text-align: justify;
+        color: $gray;
+        font-family: $helvetica-m;
+        font-size: 14px;
+        margin-bottom: 30px;
+    }
 }
 
 .footer-categories {
+    margin: 0 auto;
     @extend %flex-column;
+    text-align: left;
+
+    ul {
+        padding-top: 8px;
+        @extend %ul-style-none;
+
+        li {
+            a {
+                font-family: Arial, Helvetica, sans-serif;
+                color: $gray;
+            }
+        }
+    }
+
+    h4 {
+        color: $pink;
+        border-bottom: $pink solid 1px;
+        padding-bottom: 8px;
+    }
+
     grid-area: categories;
+    margin-bottom: 30px;
 }
 
 .footer-navigation {
+    margin: 0 auto;
     @extend %flex-column;
+    text-align: left;
+
+    ul {
+        padding-top: 8px;
+        @extend %ul-style-none;
+
+        li {
+            a {
+                font-family: Arial, Helvetica, sans-serif;
+                color: $gray;
+            }
+        }
+    }
+
+    h4 {
+        color: $pink;
+        border-bottom: $pink solid 1px;
+        padding-bottom: 8px;
+    }
+
     grid-area: navigation;
+
+    margin-bottom: 30px;
 }
 
-.footer-btn {
+.footer-menu {
     @extend %flex-column;
     grid-area: btns;
+    color: $gray;
+
+    div {
+        margin: 10px auto;
+    }
+    margin-bottom: 30px
+}
+
+.menu-btn {
+    font-family: $helvetica-m;
+    color: $pink;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    width: 200px;
+}
+
+.pink-btn {
+    color: #fff;
+    background-color: $pink;
+    padding: 5px;
+    font-family: $helvetica-m;
+    border-radius: 3px;
+}
+
+.white-btn {
+    width: 80px;
+    color: $dark;
+    background-color: #fff;
+    padding: 5px;
+    font-family: $helvetica-m;
+    border: $gray 1px solid;
+    border-radius: 3px;
 }
 
 .copyright {
+    margin: 10px auto;
+    border-top: #ccc solid 1px;
+    padding: 20px;
     grid-area: copyr;
+    color: $gray;
+    font-family: $helvetica-l;
 }
 
 footer {
+    padding: 1rem;
+    border-top: #ccc solid 1px;
+    ;
+    color: $dark;
+    font-size: 15px;
     display: grid;
-    grid-template-areas: 'about about about''navigation categories categories''btns btns btns''copyr copyr copyr';
+    grid-template-areas: 'about about about about''navigation navigation categories categories''btns btns btns btns''copyr copyr copyr copyr';
     text-align: center;
+}
+
+.logo {
+    width: 100px;
 }
 
 /*----- RESULT PAGE ----- */
@@ -241,7 +347,7 @@ footer {
     }
 }
 
-.result-txt{
+.result-txt {
     font-size: 15px;
 }
 

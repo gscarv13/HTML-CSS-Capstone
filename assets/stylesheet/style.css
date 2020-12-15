@@ -30,9 +30,14 @@ nav {
   justify-content: space-between;
 }
 
-.footer-btn, .footer-navigation, .footer-categories {
+.footer-menu, .footer-navigation, .footer-categories {
   display: flex;
   flex-direction: column;
+}
+
+.footer-navigation ul, .footer-categories ul {
+  list-style: none;
+  text-decoration: none;
 }
 
 a {
@@ -149,29 +154,113 @@ nav .link-highlight {
 
 /*FOOTER*/
 .about {
+  margin: 0 auto;
   grid-area: about;
+  width: 350px;
+}
+.about p {
+  text-align: justify;
+  color: #888;
+  font-family: "Helvetica Medium", san-serif;
+  font-size: 14px;
+  margin-bottom: 30px;
 }
 
 .footer-categories {
+  margin: 0 auto;
+  text-align: left;
   grid-area: categories;
+  margin-bottom: 30px;
+}
+.footer-categories ul {
+  padding-top: 8px;
+}
+.footer-categories ul li a {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #888;
+}
+.footer-categories h4 {
+  color: #d35266;
+  border-bottom: #d35266 solid 1px;
+  padding-bottom: 8px;
 }
 
 .footer-navigation {
+  margin: 0 auto;
+  text-align: left;
   grid-area: navigation;
+  margin-bottom: 30px;
+}
+.footer-navigation ul {
+  padding-top: 8px;
+}
+.footer-navigation ul li a {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #888;
+}
+.footer-navigation h4 {
+  color: #d35266;
+  border-bottom: #d35266 solid 1px;
+  padding-bottom: 8px;
 }
 
-.footer-btn {
+.footer-menu {
   grid-area: btns;
+  color: #888;
+  margin-bottom: 30px;
+}
+.footer-menu div {
+  margin: 10px auto;
+}
+
+.menu-btn {
+  font-family: "Helvetica Medium", san-serif;
+  color: #d35266;
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  width: 200px;
+}
+
+.pink-btn {
+  color: #fff;
+  background-color: #d35266;
+  padding: 5px;
+  font-family: "Helvetica Medium", san-serif;
+  border-radius: 3px;
+}
+
+.white-btn {
+  width: 80px;
+  color: #383838;
+  background-color: #fff;
+  padding: 5px;
+  font-family: "Helvetica Medium", san-serif;
+  border: #888 1px solid;
+  border-radius: 3px;
 }
 
 .copyright {
+  margin: 10px auto;
+  border-top: #ccc solid 1px;
+  padding: 20px;
   grid-area: copyr;
+  color: #888;
+  font-family: "Helvetica Light", san-serif;
 }
 
 footer {
+  padding: 1rem;
+  border-top: #ccc solid 1px;
+  color: #383838;
+  font-size: 15px;
   display: grid;
-  grid-template-areas: "about about about" "navigation categories categories" "btns btns btns" "copyr copyr copyr";
+  grid-template-areas: "about about about about" "navigation navigation categories categories" "btns btns btns btns" "copyr copyr copyr copyr";
   text-align: center;
+}
+
+.logo {
+  width: 100px;
 }
 
 /*----- RESULT PAGE ----- */
