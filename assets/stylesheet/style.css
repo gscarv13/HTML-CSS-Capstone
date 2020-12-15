@@ -109,6 +109,70 @@ nav .link-highlight {
   margin-left: 10px;
 }
 
+.deals-h3 {
+  margin-bottom: 30px;
+  color: #888;
+  font-family: "Helvetica Bold", san-serif;
+}
+
+.deals-container {
+  padding: 50px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.deals-img {
+  width: 200px;
+}
+
+.deals-title {
+  color: #d35266;
+  font-family: "Helvetica Bold", san-serif;
+  font-size: 18px;
+}
+
+.text-deal {
+  width: 500px;
+  margin-top: 50px;
+  margin-left: 50px;
+}
+.text-deal p {
+  color: #383838;
+  font-family: "Helvetica Medium", san-serif;
+  margin-top: 30px;
+}
+
+.deals-btn {
+  margin-top: 30px;
+  width: 280px;
+  display: flex;
+  border-radius: 8px;
+  border: #d35266 2px solid;
+}
+.deals-btn p {
+  margin: 0;
+}
+
+.price-btn {
+  text-align: center;
+  color: #fff;
+  background-color: #d35266;
+  padding: 5px;
+  font-family: "Helvetica Medium", san-serif;
+  width: 80px;
+  border-right: #9b3b49 solid 1px;
+}
+
+.buy-btn {
+  text-align: center;
+  width: 100%;
+  color: #fff;
+  background-color: #d35266;
+  padding: 5px;
+  font-family: "Helvetica Medium", san-serif;
+}
+
 /* DEPARTMENT SECTION*/
 .dept-header {
   color: #888;
@@ -325,14 +389,6 @@ footer {
 
   nav {
     height: 10vh;
-  }
-
-  .deals-container {
-    display: flex;
-  }
-
-  .deals-img {
-    width: 200px;
   }
 }
 
