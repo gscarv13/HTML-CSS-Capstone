@@ -112,6 +112,51 @@ nav {
 
 /* HEADER */
 
+.header-top {
+    @extend %flex-column;
+    
+    align-items: center;
+    justify-content: center;
+    font-family: $gotham-bold;
+    color: #fff;
+    font-size: 35px;
+    height: 35vh;
+    background-color: $pink;
+
+    h1{
+        font-family: 'Audiowide', $gotham-bold;
+    }
+
+    form {
+        display: flex;
+        margin-top: 20px;
+        
+        input{
+            font-family: $helvetica-m;
+            border: #ccc solid 0.2px;
+            padding: 10px 5px;
+        }
+
+        select {
+            font-family: $helvetica-m;
+            border: #ccc solid 0.2px;
+        }
+
+        button {
+            font-size: 15px;
+            color: $gray;
+            background-color: $dark;
+            padding: 5px 25px;
+            font-family: $helvetica-m;
+            border: none;
+            border-radius: 3px;
+            margin-left: 10px;
+        }
+    }
+}
+
+
+
 /* DEPARTMENT SECTION*/
 .dept-header {
     color: $gray;
@@ -280,6 +325,7 @@ nav {
     div {
         margin: 10px auto;
     }
+
     margin-bottom: 30px
 }
 
@@ -354,5 +400,24 @@ footer {
 @media only screen and (max-width: 767px) {
     .d-mobile-none {
         display: none;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .d-mid-none {
+        display: none;
+    }
+
+    nav {
+        height: 10vh;
+    }
+
+
+    .deals-container {
+        display: flex;
+    }
+
+    .deals-img {
+        width: 200px;
     }
 }
