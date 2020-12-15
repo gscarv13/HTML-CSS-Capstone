@@ -390,6 +390,16 @@ footer {
   nav {
     height: 10vh;
   }
+
+  footer {
+    padding: 0;
+    padding-top: 50px;
+    grid-template-areas: "about navigation categories btns" "copyr copyr copyr copyr";
+  }
+
+  .copyright {
+    width: 97%;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
