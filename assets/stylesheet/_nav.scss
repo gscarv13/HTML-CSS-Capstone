@@ -1,0 +1,29 @@
+@import '_var.scss';
+@import '_extentions.scss';
+
+.nav-main {
+  @extend %px-2;
+  @extend %flex-between;
+
+  height: 60px;
+  align-items: center;
+  background-color: $dark;
+
+  a {
+    color: $gray;
+    font-size: 15px;
+    font-family: $gotham-light;
+
+    img {
+      width: 65px;
+    }
+  }
+
+  .link-highlight {
+    color: $pink;
+  }
+
+  .pink-btn {
+    color: #fff;
+  }
+}

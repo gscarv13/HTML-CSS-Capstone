@@ -1,3 +1,4 @@
+/* VARIALBES */
 @font-face {
   font-family: "Gotham Bold";
   src: url(../font/GothamBold.ttf);
@@ -19,27 +20,7 @@
   src: url(../font/HelveticaNeueCyr-Bold.ttf);
 }
 /* VARIALBES */
-/* General utilities*/
-.nav-main {
-  padding-left: 3rem;
-  padding-right: 3rem;
-}
-
-.card-price-result, .card-price, .nav-main {
-  display: flex;
-  justify-content: space-between;
-}
-
-.footer-menu, .footer-navigation, .footer-categories, .header-top {
-  display: flex;
-  flex-direction: column;
-}
-
-.footer-navigation ul, .footer-categories ul {
-  list-style: none;
-  text-decoration: none;
-}
-
+/* VARIALBES */
 a {
   text-decoration: none;
 }
@@ -54,7 +35,17 @@ main {
   background-color: #fafafa;
 }
 
-/* NAVIGATION BAR*/
+/* VARIALBES */
+.nav-main {
+  padding-left: 3rem;
+  padding-right: 3rem;
+}
+
+.nav-main {
+  display: flex;
+  justify-content: space-between;
+}
+
 .nav-main {
   height: 60px;
   align-items: center;
@@ -75,7 +66,12 @@ main {
   color: #fff;
 }
 
-/* HEADER */
+/* VARIALBES */
+.header-top {
+  display: flex;
+  flex-direction: column;
+}
+
 .header-top {
   align-items: center;
   justify-content: center;
@@ -86,7 +82,7 @@ main {
   background-color: #d35266;
 }
 .header-top h1 {
-  font-family: "Audiowide", "Gotham Bold", san-serif;
+  font-family: "Audiowide", sans-serif;
 }
 .header-top form {
   display: flex;
@@ -176,7 +172,12 @@ main {
   font-family: "Helvetica Medium", san-serif;
 }
 
-/* DEPARTMENT SECTION*/
+/* VARIALBES */
+.card-price {
+  display: flex;
+  justify-content: space-between;
+}
+
 .dept-header {
   color: #888;
   padding-top: 20px;
@@ -264,7 +265,17 @@ main {
   color: #d35266;
 }
 
-/*FOOTER*/
+/* VARIALBES */
+.footer-menu, .footer-navigation, .footer-categories {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-navigation ul, .footer-categories ul {
+  list-style: none;
+  text-decoration: none;
+}
+
 .about {
   margin: 0 auto;
   grid-area: about;
@@ -375,7 +386,12 @@ footer {
   width: 100px;
 }
 
-/*----- RESULT PAGE ----- */
+/* VARIALBES */
+.card-price-result {
+  display: flex;
+  justify-content: space-between;
+}
+
 .grid-results {
   display: flex;
   flex-direction: column;
@@ -447,7 +463,7 @@ footer {
   color: #fff;
 }
 
-/*ASIDE FILTER SECTION*/
+/* VARIALBES */
 .filter-section {
   width: 215px;
   border-right: #ccc 1px solid;
@@ -474,6 +490,7 @@ footer {
   margin-right: 8px;
 }
 
+/* VARIALBES */
 @media only screen and (max-width: 767px) {
   .d-mobile-none {
     display: none;

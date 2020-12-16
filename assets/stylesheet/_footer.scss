@@ -1,0 +1,137 @@
+@import '_var.scss';
+@import '_extentions.scss';
+
+.about {
+  margin: 0 auto;
+  grid-area: about;
+  width: 350px;
+
+  p {
+    text-align: justify;
+    color: $gray;
+    font-family: $helvetica-m;
+    font-size: 14px;
+    margin-bottom: 30px;
+  }
+}
+
+.footer-categories {
+  @extend %flex-column;
+
+  margin: 0 auto;
+  text-align: left;
+
+  ul {
+    @extend %ul-style-none;
+
+    padding-top: 8px;
+
+    li {
+      a {
+        font-family: Arial, Helvetica, sans-serif;
+        color: $gray;
+      }
+    }
+  }
+
+  h4 {
+    color: $pink;
+    border-bottom: $pink solid 1px;
+    padding-bottom: 8px;
+  }
+
+  grid-area: categories;
+  margin-bottom: 30px;
+}
+
+.footer-navigation {
+  @extend %flex-column;
+
+  margin: 0 auto;
+  text-align: left;
+
+  ul {
+    @extend %ul-style-none;
+
+    padding-top: 8px;
+
+    li {
+      a {
+        font-family: Arial, Helvetica, sans-serif;
+        color: $gray;
+      }
+    }
+  }
+
+  h4 {
+    color: $pink;
+    border-bottom: $pink solid 1px;
+    padding-bottom: 8px;
+  }
+
+  grid-area: navigation;
+  margin-bottom: 30px;
+}
+
+.footer-menu {
+  @extend %flex-column;
+
+  grid-area: btns;
+  color: $gray;
+
+  div {
+    margin: 10px auto;
+  }
+
+  margin-bottom: 30px;
+}
+
+.menu-btn {
+  font-family: $helvetica-m;
+  color: $pink;
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  width: 200px;
+}
+
+.pink-btn {
+  color: #fff;
+  background-color: $pink;
+  padding: 5px;
+  font-family: $helvetica-m;
+  border-radius: 3px;
+}
+
+.white-btn {
+  width: 80px;
+  color: $dark;
+  background-color: #fff;
+  padding: 5px;
+  font-family: $helvetica-m;
+  border: $gray 1px solid;
+  border-radius: 3px;
+}
+
+.copyright {
+  margin: 10px auto;
+  border-top: #ccc solid 1px;
+  padding: 20px;
+  grid-area: copyr;
+  color: $gray;
+  font-family: $helvetica-l;
+}
+
+footer {
+  padding: 1rem;
+  border-top: #ccc solid 1px;
+  color: $dark;
+  font-size: 15px;
+  display: grid;
+  grid-template-areas: "about about about about" "navigation navigation categories categories" "btns btns btns btns" "copyr copyr copyr copyr";
+  text-align: center;
+}
+
+.logo {
+  width: 100px;
+}
