@@ -1,4 +1,3 @@
-/* VARIALBES */
 @font-face {
   font-family: "Gotham Bold";
   src: url(../font/GothamBold.ttf);
@@ -19,8 +18,6 @@
   font-family: "Helvetica Bold";
   src: url(../font/HelveticaNeueCyr-Bold.ttf);
 }
-/* VARIALBES */
-/* VARIALBES */
 a {
   text-decoration: none;
 }
@@ -35,7 +32,6 @@ main {
   background-color: #fafafa;
 }
 
-/* VARIALBES */
 .nav-main {
   padding-left: 3rem;
   padding-right: 3rem;
@@ -66,7 +62,6 @@ main {
   color: #fff;
 }
 
-/* VARIALBES */
 .header-top {
   display: flex;
   flex-direction: column;
@@ -172,7 +167,6 @@ main {
   font-family: "Helvetica Medium", san-serif;
 }
 
-/* VARIALBES */
 .card-price {
   display: flex;
   justify-content: space-between;
@@ -265,7 +259,6 @@ main {
   color: #d35266;
 }
 
-/* VARIALBES */
 .footer-menu, .footer-navigation, .footer-categories {
   display: flex;
   flex-direction: column;
@@ -386,7 +379,6 @@ footer {
   width: 100px;
 }
 
-/* VARIALBES */
 .card-price-result {
   display: flex;
   justify-content: space-between;
@@ -463,7 +455,6 @@ footer {
   color: #fff;
 }
 
-/* VARIALBES */
 .filter-section {
   width: 215px;
   border-right: #ccc 1px solid;
@@ -490,7 +481,6 @@ footer {
   margin-right: 8px;
 }
 
-/* VARIALBES */
 @media only screen and (max-width: 767px) {
   .d-mobile-none {
     display: none;
