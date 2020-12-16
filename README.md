@@ -5,7 +5,7 @@
 ![screenshot](./assets/img/Screenshot_2020-12-16Ampert1.png)
 ![screenshot](./assets/img/Screenshot_2020-12-16Ampert2.png)
 
-This project is part of Microverse's HTML and CSS module. Is consist of an online audio equipment based on the design provided by Mohammed Awad on [Behance](https://www.behance.net/gallery/24796463/ZATTIX).
+This project is the last part of Microverse's HTML and CSS module. It consists of two responsive pages of an online audio equipment shop. Design provided by Mohammed Awad on [Behance](https://www.behance.net/gallery/24796463/ZATTIX).
 
 ## Built With
 
