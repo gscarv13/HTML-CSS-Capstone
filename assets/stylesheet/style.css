@@ -212,13 +212,14 @@ main {
 }
 
 .card-img-container {
-  display: block;
+  align-self: center;
   width: 100%;
   object-fit: cover;
 }
 
 .product-info {
-  align-self: flex-end;
+  margin-top: 25px;
+  align-self: center;
   font-family: "Helvetica Light", san-serif;
   line-height: 1.3;
 }
