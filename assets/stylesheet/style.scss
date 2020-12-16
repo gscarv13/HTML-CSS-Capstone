@@ -87,7 +87,7 @@ main {
 
 /* NAVIGATION BAR*/
 
-nav {
+.nav-main {
     @extend %px-2;
     @extend %flex-between;
 
@@ -477,6 +477,26 @@ footer {
     a {
         border-radius: 8px;
         padding: 8px 10px;
+    }
+}
+
+.nav-page{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    a{
+        border: $gray 1px solid;
+        color: $gray;
+        width: 10px;
+        padding: 3px 8px;
+        margin: 10px 5px;
+    }
+
+    a:hover {
+        border: $pink 1px solid;
+        background-color: $pink;
+        color: #fff;
     }
 }
 

@@ -20,12 +20,12 @@
 }
 /* VARIALBES */
 /* General utilities*/
-nav {
+.nav-main {
   padding-left: 3rem;
   padding-right: 3rem;
 }
 
-.card-price, nav {
+.card-price, .nav-main {
   display: flex;
   justify-content: space-between;
 }
@@ -55,20 +55,20 @@ main {
 }
 
 /* NAVIGATION BAR*/
-nav {
+.nav-main {
   height: 60px;
   align-items: center;
   background-color: #383838;
 }
-nav a {
+.nav-main a {
   color: #888;
   font-size: 15px;
   font-family: "Gotham Rounded Light", san-serif;
 }
-nav a img {
+.nav-main a img {
   width: 65px;
 }
-nav .link-highlight {
+.nav-main .link-highlight {
   color: #d35266;
 }
 
@@ -395,6 +395,24 @@ footer {
 .buy-links a {
   border-radius: 8px;
   padding: 8px 10px;
+}
+
+.nav-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.nav-page a {
+  border: #888 1px solid;
+  color: #888;
+  width: 10px;
+  padding: 3px 8px;
+  margin: 10px 5px;
+}
+.nav-page a:hover {
+  border: #d35266 1px solid;
+  background-color: #d35266;
+  color: #fff;
 }
 
 @media only screen and (max-width: 767px) {
