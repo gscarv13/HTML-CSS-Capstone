@@ -25,7 +25,7 @@
   padding-right: 3rem;
 }
 
-.card-price, .nav-main {
+.card-price-result, .card-price, .nav-main {
   display: flex;
   justify-content: space-between;
 }
@@ -199,7 +199,7 @@ main {
 
 .grid {
   margin: 0 auto;
-  max-width: 1000px;
+  max-width: 1300px;
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
   gap: 20px;
@@ -207,13 +207,23 @@ main {
 }
 
 .card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
   background-color: #fff;
   border: #ddd 1px solid;
   box-shadow: 0 1px 3px rgba(192, 190, 190, 0.52);
   padding: 1rem;
 }
 
+.card-img-container {
+  display: block;
+  width: 100%;
+  object-fit: cover;
+}
+
 .product-info {
+  align-self: flex-end;
   font-family: "Helvetica Light", san-serif;
   line-height: 1.3;
 }
@@ -235,7 +245,6 @@ main {
 }
 
 .card-img {
-  object-fit: cover;
   height: 100%;
   width: 100%;
 }
@@ -385,6 +394,17 @@ footer {
   margin-left: 20px;
 }
 
+.list-img {
+  margin-bottom: 20px;
+  height: 200px;
+  width: auto;
+}
+
+.result-img-container {
+  display: flex;
+  justify-content: center;
+}
+
 .text-result {
   font-family: "Helvetica Light", san-serif;
   color: #888;
@@ -394,6 +414,10 @@ footer {
   color: #383838;
   font-family: "Helvetica Bold", san-serif;
   font-size: 18px;
+}
+
+.card-price-result {
+  margin-top: 10px;
 }
 
 .buy-links {
@@ -425,7 +449,7 @@ footer {
 
 /*ASIDE FILTER SECTION*/
 .filter-section {
-  width: 300px;
+  width: 215px;
   border-right: #ccc 1px solid;
   padding: 20px 15px;
 }
@@ -441,6 +465,7 @@ footer {
 }
 
 .checkbox-item {
+  margin: 10px 0;
   font-family: "Helvetica Light", san-serif;
   font-size: 14px;
   color: #383838;
@@ -463,7 +488,7 @@ footer {
     display: none;
   }
 
-  .card-price {
+  .card-price-result {
     display: none;
   }
 
@@ -478,7 +503,7 @@ footer {
 
   .card-result {
     background-color: #fafafa;
-    width: 100%;
+    width: 90%;
     border: none;
     border-top: #ccc solid 1px;
     border-bottom: #ccc solid 1px;
@@ -486,10 +511,23 @@ footer {
     margin: 0;
     display: flex;
     flex-direction: row;
+    align-content: center;
+    justify-content: space-around;
   }
 
   .info-result {
     margin-left: 30px;
+    align-self: auto;
+    height: 3rem;
+  }
+  .info-result p {
+    margin: 10px 0;
+  }
+
+  .list-img {
+    display: block;
+    max-height: 200px;
+    max-width: 100%;
   }
 
   footer {
