@@ -1,5 +1,5 @@
-@import '_var.scss';
-@import '_extentions.scss';
+@import "_var.scss";
+@import "_extentions.scss";
 
 .nav-main {
   @extend %px-2;
@@ -10,6 +10,7 @@
   background-color: $dark;
 
   a {
+    padding-left: 20px;
     color: $gray;
     font-size: 15px;
     font-family: $gotham-light;
@@ -25,5 +26,33 @@
 
   .pink-btn {
     color: #fff;
+    margin-left: 15px;
+    padding: 5px 10px;
   }
+}
+
+.user-pic-container {
+  border-radius: 100%;
+}
+
+.nav-items {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.d-mibile-none {
+  color: #fff;
+}
+
+.nav-login {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.user-pic {
+  margin-left: 10px;
+  border-radius: 100%;
+  width: 50px;
 }

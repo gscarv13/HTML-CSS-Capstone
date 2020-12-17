@@ -48,6 +48,7 @@ main {
   background-color: #383838;
 }
 .nav-main a {
+  padding-left: 20px;
   color: #888;
   font-size: 15px;
   font-family: "Gotham Rounded Light", san-serif;
@@ -60,6 +61,34 @@ main {
 }
 .nav-main .pink-btn {
   color: #fff;
+  margin-left: 15px;
+  padding: 5px 10px;
+}
+
+.user-pic-container {
+  border-radius: 100%;
+}
+
+.nav-items {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.d-mibile-none {
+  color: #fff;
+}
+
+.nav-login {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.user-pic {
+  margin-left: 10px;
+  border-radius: 100%;
+  width: 50px;
 }
 
 .header-top {
@@ -196,7 +225,7 @@ main {
   margin: 0 auto;
   max-width: 1300px;
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
   gap: 20px;
   padding: 30px;
 }
@@ -273,7 +302,7 @@ main {
 .about {
   margin: 0 auto;
   grid-area: about;
-  width: 350px;
+  width: 220px;
 }
 .about p {
   text-align: justify;
@@ -358,6 +387,8 @@ main {
 }
 
 .copyright {
+  display: flex;
+  justify-content: space-between;
   margin: 10px auto;
   border-top: #ccc solid 1px;
   padding: 20px;
@@ -378,6 +409,10 @@ footer {
 
 .logo {
   width: 100px;
+}
+
+.footer-icons i {
+  padding: 0 10px;
 }
 
 .card-price-result {
@@ -490,6 +525,14 @@ footer {
   .buy-links {
     display: none;
   }
+
+  .nav-main {
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+  .nav-main a {
+    font-size: 12px;
+  }
 }
 @media only screen and (min-width: 768px) {
   .d-mid-none {
@@ -498,6 +541,10 @@ footer {
 
   .card-price-result {
     display: none;
+  }
+
+  .grid {
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
   }
 
   .grid-results {
@@ -544,12 +591,25 @@ footer {
     grid-template-areas: "about navigation categories btns" "copyr copyr copyr copyr";
   }
 
+  .about {
+    width: 300px;
+  }
+
   .copyright {
     width: 92%;
   }
 
   .container {
     display: flex;
+  }
+}
+@media only screen and (min-width: 992px) {
+  .nav-login {
+    display: flex;
+  }
+
+  .nav-main {
+    padding: 0 80px;
   }
 }
 

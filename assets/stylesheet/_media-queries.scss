@@ -8,6 +8,15 @@
   .buy-links {
     display: none;
   }
+
+  .nav-main {
+    padding-left: 5px;
+    padding-right: 5px;
+
+    a {
+      font-size: 12px;
+    }
+  }
 }
 
 @media only screen and (min-width: 768px) {
@@ -17,6 +26,10 @@
 
   .card-price-result {
     display: none;
+  }
+
+  .grid {
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
   }
 
   .grid-results {
@@ -64,11 +77,25 @@
     grid-template-areas: "about navigation categories btns" "copyr copyr copyr copyr";
   }
 
+  .about {
+    width: 300px;
+  }
+
   .copyright {
     width: 92%;
   }
 
   .container {
     display: flex;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .nav-login {
+    display: flex;
+  }
+
+  .nav-main {
+    padding: 0 80px;
   }
 }

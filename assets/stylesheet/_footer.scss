@@ -1,10 +1,10 @@
-@import '_var.scss';
-@import '_extentions.scss';
+@import "_var.scss";
+@import "_extentions.scss";
 
 .about {
   margin: 0 auto;
   grid-area: about;
-  width: 350px;
+  width: 220px;
 
   p {
     text-align: justify;
@@ -114,6 +114,8 @@
 }
 
 .copyright {
+  display: flex;
+  justify-content: space-between;
   margin: 10px auto;
   border-top: #ccc solid 1px;
   padding: 20px;
@@ -134,4 +136,10 @@ footer {
 
 .logo {
   width: 100px;
+}
+
+.footer-icons {
+  i {
+    padding: 0 10px;
+  }
 }
