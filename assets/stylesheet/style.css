@@ -229,6 +229,10 @@ main {
   color: #888;
 }
 
+.grid-wrapper {
+  display: flex;
+}
+
 .grid {
   margin: 0 auto;
   max-width: 1300px;
@@ -238,7 +242,24 @@ main {
   padding: 30px;
 }
 
+.product-icon-container {
+  position: relative;
+}
+
+.left-arrow {
+  position: absolute;
+  top: 50%;
+  left: -10%;
+}
+
+.right-arrow {
+  position: absolute;
+  top: 50%;
+  right: -10%;
+}
+
 .card {
+  height: 90%;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -618,6 +639,14 @@ footer {
 
   .nav-main {
     padding: 0 80px;
+  }
+
+  .right-arrow {
+    display: inline;
+  }
+
+  .left-arrow {
+    display: inline;
   }
 }
 

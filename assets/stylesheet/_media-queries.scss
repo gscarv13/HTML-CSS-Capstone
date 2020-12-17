@@ -1,4 +1,4 @@
-@import '_var.scss';
+@import "_var.scss";
 
 @media only screen and (max-width: 767px) {
   .d-mobile-none {
@@ -97,5 +97,13 @@
 
   .nav-main {
     padding: 0 80px;
+  }
+
+  .right-arrow {
+    display: inline;
+  }
+
+  .left-arrow {
+    display: inline;
   }
 }

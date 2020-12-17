@@ -1,5 +1,5 @@
-@import '_var.scss';
-@import '_extentions.scss';
+@import "_var.scss";
+@import "_extentions.scss";
 
 .dept-header {
   color: $gray;
@@ -22,6 +22,10 @@
   color: $gray;
 }
 
+.grid-wrapper {
+  display: flex;
+}
+
 .grid {
   margin: 0 auto;
   max-width: 1300px;
@@ -32,7 +36,24 @@
   padding: 30px;
 }
 
+.product-icon-container {
+  position: relative;
+}
+
+.left-arrow {
+  position: absolute;
+  top: 50%;
+  left: -10%;
+}
+
+.right-arrow {
+  position: absolute;
+  top: 50%;
+  right: -10%;
+}
+
 .card {
+  height: 90%;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
