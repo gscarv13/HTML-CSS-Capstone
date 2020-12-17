@@ -1,522 +1,424 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
-    />
-    <link rel="stylesheet" href="./assets/stylesheet/style.css" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Audiowide&display=swap"
-      rel="stylesheet"
-    />
-    <title>Ampert</title>
-  </head>
 
-  <body>
-    <nav class="nav-main">
-      <div class="nav-items">
-        <a href="#" class="logo"
-          ><img src="./assets/img/logo.png" alt="logo"
-        /></a>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+  <link rel="stylesheet" href="./assets/stylesheet/style.css" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Audiowide&display=swap" rel="stylesheet" />
+  <title>Ampert</title>
+</head>
 
-        <a href="#" class="link-highlight"
-          ><i class="fa fa-home" aria-hidden="true"></i> Home</a
-        >
-        <a href="#"
-          ><i class="fa fa-hashtag" aria-hidden="true"></i> Collections</a
-        >
-        <a href="#"
-          ><i class="fa fa-shopping-cart" aria-hidden="true"></i> Purchase
-          List</a
-        >
-        <a href="#" class="d-mobile-none pink-btn">Post an AD</a>
-      </div>
+<body>
+  <nav class="nav-main">
+    <div class="nav-items">
+      <a href="#" class="logo"><img src="./assets/img/logo.png" alt="logo" /></a>
 
-      <div class="d-mobile-none d-mid-none nav-login">
-        <a href="#"><i class="fa fa-envelope" aria-hidden="true"></i></a>
-        <a href="#" class="d-mobile-none">Jane Doe</a>
-        <picture class="user-pic-container">
-          <img
-            src="./assets/img/user.jpg"
-            class="user-pic"
-            alt="user-picture"
-          />
-        </picture>
-      </div>
-    </nav>
-    <header class="d-mobile-none">
-      <div class="header-top">
-        <h1>Ampert</h1>
-        <h3>Audio is Power</h3>
+      <a href="#" class="link-highlight"><i class="fa fa-home" aria-hidden="true"></i> Home</a>
+      <a href="#"><i class="fa fa-hashtag" aria-hidden="true"></i> Collections</a>
+      <a href="#"><i class="fa fa-shopping-cart" aria-hidden="true"></i> Purchase
+        List</a>
+      <a href="#" class="d-mobile-none pink-btn">Post an AD</a>
+    </div>
 
-        <form action="./pages/list.html">
-          <select name="depatments" id="departments">
-            <option value="speakers">Speakers</option>
-            <option value="home-audio">Home Audio</option>
-            <option value="microphones">Microphones</option>
-            <option value="headphones">Headsets</option>
-            <option value="accessories">Accessories</option>
-          </select>
+    <div class="d-mobile-none d-mid-none nav-login">
+      <a href="#"><i class="fa fa-envelope" aria-hidden="true"></i></a>
+      <a href="#" class="d-mobile-none">Jane Doe</a>
+      <picture class="user-pic-container">
+        <img src="./assets/img/user.jpg" class="user-pic" alt="user-picture" />
+      </picture>
+    </div>
+  </nav>
+  <header class="d-mobile-none">
+    <div class="header-top">
+      <h1>Ampert</h1>
+      <h3>Audio is Power</h3>
 
-          <input type="text" placeholder="Any Particular Brand?" />
-          <input
-            type="text"
-            placeholder="What are you looking for?"
-            size="40"
-          />
-          <button type="submit">Search</button>
-        </form>
-      </div>
-      <div class="header-deals">
-        <div class="deals-container">
-          <div>
-            <h3 class="deals-h3">DEALS</h3>
-            <img
-              src="./assets/img/deals.jpg"
-              alt="White-gamer-headset"
-              class="deals-img"
-            />
-          </div>
-          <div class="text-deal">
-            <a href="#" class="deals-title"
-              >Logitech - G733 LIGHTSPEED Wireless DTS Headphone</a
-            >
-            <br />
-            <p>
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deserunt
-              quia repellendus numquam debitis rem voluptatum necessitatibus
-              eveniet amet dolorem modi quisquam, quo labore ipsum inventore
-              minima laboriosam adipisci, asperiores provident.
-            </p>
+      <form action="./pages/list.html">
+        <select name="depatments" id="departments">
+          <option value="speakers">Speakers</option>
+          <option value="home-audio">Home Audio</option>
+          <option value="microphones">Microphones</option>
+          <option value="headphones">Headsets</option>
+          <option value="accessories">Accessories</option>
+        </select>
 
-            <p>Brand: <span>Logitech</span></p>
+        <input type="text" placeholder="Any Particular Brand?" />
+        <input type="text" placeholder="What are you looking for?" size="40" />
+        <button type="submit">Search</button>
+      </form>
+    </div>
+    <div class="header-deals">
+      <div class="deals-container">
+        <div class="deals-icon">
+          <i class="fa fa-chevron-left" aria-hidden="true"></i>
+        </div>
+        <div>
+          <h3 class="deals-h3">DEALS</h3>
+          <img src="./assets/img/deals.jpg" alt="White-gamer-headset" class="deals-img" />
+        </div>
+        <div class="text-deal">
+          <a href="#" class="deals-title">Logitech - G733 LIGHTSPEED Wireless DTS Headphone</a>
+          <br />
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deserunt
+            quia repellendus numquam debitis rem voluptatum necessitatibus
+            eveniet amet dolorem modi quisquam, quo labore ipsum inventore
+            minima laboriosam adipisci, asperiores provident.
+          </p>
 
-            <div class="deals-btn">
-              <span class="price-btn">$99</span>
-              <span class="buy-btn">
-                <i class="fa fa-shopping-cart" aria-hidden="true"></i>
-                Purchase Details
-              </span>
+          <p>Brand: <span>Logitech</span></p>
+
+          <div class="deals-btn">
+            <span class="price-btn">$99</span>
+            <span class="buy-btn">
+              <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+              Purchase Details
+            </span>
+          </div>
+        </div>
+        <div class="deals-icon">
+          <i class="fa fa-chevron-right" aria-hidden="true"></i>
+        </div>
+      </div>
+    </div>
+  </header>
+  <main>
+    <section class="section-container">
+      <h4 class="dept-header">
+        <i class="fa fa-lg fa-headphones" aria-hidden="true"></i> Headphone
+        <span class="dept-header-details">(Headsets, Wireless and Sports)</span>
+      </h4>
+      <div class="grid">
+        <div class="card">
+          <picture class="card-img-container">
+            <img src="./assets/img/r1p1.jpg" class="card-img" alt="Headphone Razer Kraken X" />
+          </picture>
+          <div class="product-info">
+            <h4><a href="#">Kraken X Wired Gaming Headset</a></h4>
+            <span class="tag">New</span>
+            <p>Brand: <span>Razer</span></p>
+            <div class="card-price">
+              <span class="sign">+</span>
+              <span class="price">$44.99</span>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <picture class="card-img-container">
+            <img src="./assets/img/r1p2.jpg" class="card-img" alt="Sennheiser-Headphone" />
+          </picture>
+          <div class="product-info">
+            <h4><a href="#">Wireless Over-the-Ear Headphones</a></h4>
+            <span class="tag">New</span>
+            <p>Brand: <span>Sennheiser</span></p>
+            <div class="card-price">
+              <span class="sign">+</span>
+              <span class="price">$199.99</span>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <picture class="card-img-container">
+            <img src="./assets/img/r1p3.jpg" class="card-img" alt="sony-headphone" />
+          </picture>
+          <div class="product-info">
+            <h4><a href="#">Wired Earbud Headphones</a></h4>
+            <span class="tag">New</span>
+            <p>Brand: <span>Sony</span></p>
+            <div class="card-price">
+              <span class="sign">+</span>
+              <span class="price">$29.99</span>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <picture class="card-img-container">
+            <img src="./assets/img/r1p4.jpg" class="card-img" alt="Sesh-Evo-True-Wireless-In-Ear" />
+          </picture>
+          <div class="product-info">
+            <h4><a href="#">Sesh Evo True Wireless In-Ear</a></h4>
+            <span class="tag">New</span>
+            <p>Brand: <span>Skullcandy</span></p>
+            <div class="card-price">
+              <span class="sign">+</span>
+              <span class="price">$34.99</span>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <picture class="card-img-container">
+            <img src="./assets/img/r1p5.jpg" class="card-img" alt="JLab-Audio-Headphone" />
+          </picture>
+          <div class="product-info">
+            <h4><a href="#">JBuds Air Sport True Wireless</a></h4>
+            <span class="tag">New</span>
+            <p>Brand: <span>JLab Audio</span></p>
+            <div class="card-price">
+              <span class="sign">+</span>
+              <span class="price">$55.99</span>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <picture class="card-img-container">
+            <img src="./assets/img/r1p6.jpg" class="card-img" alt="Skullcandy-Headphone" />
+          </picture>
+          <div class="product-info">
+            <h4><a href="#">Crusher Evo Over-the-Ear Wireless Headset</a></h4>
+            <span class="tag">New</span>
+            <p>Brand: <span>Skullcandy</span></p>
+            <div class="card-price">
+              <span class="sign">+</span>
+              <span class="price">$149.99</span>
             </div>
           </div>
         </div>
       </div>
-    </header>
-    <main>
-      <section class="section-container">
-        <h4 class="dept-header">
-          <i class="fa fa-lg fa-headphones" aria-hidden="true"></i> Headphone
-          <span class="dept-header-details"
-            >(Headsets, Wireless and Sports)</span
-          >
-        </h4>
-        <div class="grid">
-          <div class="card">
-            <picture class="card-img-container">
-              <img
-                src="./assets/img/r1p1.jpg"
-                class="card-img"
-                alt="Headphone Razer Kraken X"
-              />
-            </picture>
-            <div class="product-info">
-              <h4><a href="#">Kraken X Wired Gaming Headset</a></h4>
-              <span class="tag">New</span>
-              <p>Brand: <span>Razer</span></p>
-              <div class="card-price">
-                <span class="sign">+</span>
-                <span class="price">$44.99</span>
-              </div>
-            </div>
-          </div>
-          <div class="card">
-            <picture class="card-img-container">
-              <img
-                src="./assets/img/r1p2.jpg"
-                class="card-img"
-                alt="Sennheiser-Headphone"
-              />
-            </picture>
-            <div class="product-info">
-              <h4><a href="#">Wireless Over-the-Ear Headphones</a></h4>
-              <span class="tag">New</span>
-              <p>Brand: <span>Sennheiser</span></p>
-              <div class="card-price">
-                <span class="sign">+</span>
-                <span class="price">$199.99</span>
-              </div>
-            </div>
-          </div>
-          <div class="card">
-            <picture class="card-img-container">
-              <img
-                src="./assets/img/r1p3.jpg"
-                class="card-img"
-                alt="sony-headphone"
-              />
-            </picture>
-            <div class="product-info">
-              <h4><a href="#">Wired Earbud Headphones</a></h4>
-              <span class="tag">New</span>
-              <p>Brand: <span>Sony</span></p>
-              <div class="card-price">
-                <span class="sign">+</span>
-                <span class="price">$29.99</span>
-              </div>
-            </div>
-          </div>
-          <div class="card">
-            <picture class="card-img-container">
-              <img
-                src="./assets/img/r1p4.jpg"
-                class="card-img"
-                alt="Sesh-Evo-True-Wireless-In-Ear"
-              />
-            </picture>
-            <div class="product-info">
-              <h4><a href="#">Sesh Evo True Wireless In-Ear</a></h4>
-              <span class="tag">New</span>
-              <p>Brand: <span>Skullcandy</span></p>
-              <div class="card-price">
-                <span class="sign">+</span>
-                <span class="price">$34.99</span>
-              </div>
-            </div>
-          </div>
-          <div class="card">
-            <picture class="card-img-container">
-              <img
-                src="./assets/img/r1p5.jpg"
-                class="card-img"
-                alt="JLab-Audio-Headphone"
-              />
-            </picture>
-            <div class="product-info">
-              <h4><a href="#">JBuds Air Sport True Wireless</a></h4>
-              <span class="tag">New</span>
-              <p>Brand: <span>JLab Audio</span></p>
-              <div class="card-price">
-                <span class="sign">+</span>
-                <span class="price">$55.99</span>
-              </div>
-            </div>
-          </div>
-          <div class="card">
-            <picture class="card-img-container">
-              <img
-                src="./assets/img/r1p6.jpg"
-                class="card-img"
-                alt="Skullcandy-Headphone"
-              />
-            </picture>
-            <div class="product-info">
-              <h4><a href="#">Crusher Evo Over-the-Ear Wireless Headset</a></h4>
-              <span class="tag">New</span>
-              <p>Brand: <span>Skullcandy</span></p>
-              <div class="card-price">
-                <span class="sign">+</span>
-                <span class="price">$149.99</span>
-              </div>
+    </section>
+    <section class="section-container">
+      <h4 class="dept-header">
+        <i class="fa fa-lg fa-headphones" aria-hidden="true"></i> Headphone
+        <span class="dept-header-details">(Headsets, Wireless and Sports)</span>
+      </h4>
+      <div class="grid">
+        <div class="card">
+          <picture class="card-img-container">
+            <img src="./assets/img/r1p1.jpg" class="card-img" alt="Headphone Razer Kraken X" />
+          </picture>
+          <div class="product-info">
+            <h4><a href="#">Kraken X Wired Gaming Headset</a></h4>
+            <span class="tag">New</span>
+            <p>Brand: <span>Razer</span></p>
+            <div class="card-price">
+              <span class="sign">+</span>
+              <span class="price">$44.99</span>
             </div>
           </div>
         </div>
-      </section>
-      <section class="section-container">
-        <h4 class="dept-header">
-          <i class="fa fa-lg fa-headphones" aria-hidden="true"></i> Headphone
-          <span class="dept-header-details"
-            >(Headsets, Wireless and Sports)</span
-          >
-        </h4>
-        <div class="grid">
-          <div class="card">
-            <picture class="card-img-container">
-              <img
-                src="./assets/img/r1p1.jpg"
-                class="card-img"
-                alt="Headphone Razer Kraken X"
-              />
-            </picture>
-            <div class="product-info">
-              <h4><a href="#">Kraken X Wired Gaming Headset</a></h4>
-              <span class="tag">New</span>
-              <p>Brand: <span>Razer</span></p>
-              <div class="card-price">
-                <span class="sign">+</span>
-                <span class="price">$44.99</span>
-              </div>
-            </div>
-          </div>
-          <div class="card">
-            <picture class="card-img-container">
-              <img
-                src="./assets/img/r1p2.jpg"
-                class="card-img"
-                alt="Sennheiser-Headphone"
-              />
-            </picture>
-            <div class="product-info">
-              <h4><a href="#">Wireless Over-the-Ear Headphones</a></h4>
-              <span class="tag">New</span>
-              <p>Brand: <span>Sennheiser</span></p>
-              <div class="card-price">
-                <span class="sign">+</span>
-                <span class="price">$199.99</span>
-              </div>
-            </div>
-          </div>
-          <div class="card">
-            <picture class="card-img-container">
-              <img
-                src="./assets/img/r1p3.jpg"
-                class="card-img"
-                alt="sony-headphone"
-              />
-            </picture>
-            <div class="product-info">
-              <h4><a href="#">Wired Earbud Headphones</a></h4>
-              <span class="tag">New</span>
-              <p>Brand: <span>Sony</span></p>
-              <div class="card-price">
-                <span class="sign">+</span>
-                <span class="price">$29.99</span>
-              </div>
-            </div>
-          </div>
-          <div class="card">
-            <picture class="card-img-container">
-              <img
-                src="./assets/img/r1p4.jpg"
-                class="card-img"
-                alt="Sesh-Evo-True-Wireless-In-Ear"
-              />
-            </picture>
-            <div class="product-info">
-              <h4><a href="#">Sesh Evo True Wireless In-Ear</a></h4>
-              <span class="tag">New</span>
-              <p>Brand: <span>Skullcandy</span></p>
-              <div class="card-price">
-                <span class="sign">+</span>
-                <span class="price">$34.99</span>
-              </div>
-            </div>
-          </div>
-          <div class="card">
-            <picture class="card-img-container">
-              <img
-                src="./assets/img/r1p5.jpg"
-                class="card-img"
-                alt="JLab-Audio-Headphone"
-              />
-            </picture>
-            <div class="product-info">
-              <h4><a href="#">JBuds Air Sport True Wireless</a></h4>
-              <span class="tag">New</span>
-              <p>Brand: <span>JLab Audio</span></p>
-              <div class="card-price">
-                <span class="sign">+</span>
-                <span class="price">$55.99</span>
-              </div>
-            </div>
-          </div>
-          <div class="card">
-            <picture class="card-img-container">
-              <img
-                src="./assets/img/r1p6.jpg"
-                class="card-img"
-                alt="Skullcandy-Headphone"
-              />
-            </picture>
-            <div class="product-info">
-              <h4><a href="#">Crusher Evo Over-the-Ear Wireless Headset</a></h4>
-              <span class="tag">New</span>
-              <p>Brand: <span>Skullcandy</span></p>
-              <div class="card-price">
-                <span class="sign">+</span>
-                <span class="price">$149.99</span>
-              </div>
+        <div class="card">
+          <picture class="card-img-container">
+            <img src="./assets/img/r1p2.jpg" class="card-img" alt="Sennheiser-Headphone" />
+          </picture>
+          <div class="product-info">
+            <h4><a href="#">Wireless Over-the-Ear Headphones</a></h4>
+            <span class="tag">New</span>
+            <p>Brand: <span>Sennheiser</span></p>
+            <div class="card-price">
+              <span class="sign">+</span>
+              <span class="price">$199.99</span>
             </div>
           </div>
         </div>
-      </section>
-      <section class="section-container">
-        <h4 class="dept-header">
-          <i class="fa fa-lg fa-headphones" aria-hidden="true"></i> Headphone
-          <span class="dept-header-details"
-            >(Headsets, Wireless and Sports)</span
-          >
-        </h4>
-        <div class="grid">
-          <div class="card">
-            <picture class="card-img-container">
-              <img
-                src="./assets/img/r1p1.jpg"
-                class="card-img"
-                alt="Headphone Razer Kraken X"
-              />
-            </picture>
-            <div class="product-info">
-              <h4><a href="#">Kraken X Wired Gaming Headset</a></h4>
-              <span class="tag">New</span>
-              <p>Brand: <span>Razer</span></p>
-              <div class="card-price">
-                <span class="sign">+</span>
-                <span class="price">$44.99</span>
-              </div>
-            </div>
-          </div>
-          <div class="card">
-            <picture class="card-img-container">
-              <img
-                src="./assets/img/r1p2.jpg"
-                class="card-img"
-                alt="Sennheiser-Headphone"
-              />
-            </picture>
-            <div class="product-info">
-              <h4><a href="#">Wireless Over-the-Ear Headphones</a></h4>
-              <span class="tag">New</span>
-              <p>Brand: <span>Sennheiser</span></p>
-              <div class="card-price">
-                <span class="sign">+</span>
-                <span class="price">$199.99</span>
-              </div>
-            </div>
-          </div>
-          <div class="card">
-            <picture class="card-img-container">
-              <img
-                src="./assets/img/r1p3.jpg"
-                class="card-img"
-                alt="sony-headphone"
-              />
-            </picture>
-            <div class="product-info">
-              <h4><a href="#">Wired Earbud Headphones</a></h4>
-              <span class="tag">New</span>
-              <p>Brand: <span>Sony</span></p>
-              <div class="card-price">
-                <span class="sign">+</span>
-                <span class="price">$29.99</span>
-              </div>
-            </div>
-          </div>
-          <div class="card">
-            <picture class="card-img-container">
-              <img
-                src="./assets/img/r1p4.jpg"
-                class="card-img"
-                alt="Sesh-Evo-True-Wireless-In-Ear"
-              />
-            </picture>
-            <div class="product-info">
-              <h4><a href="#">Sesh Evo True Wireless In-Ear</a></h4>
-              <span class="tag">New</span>
-              <p>Brand: <span>Skullcandy</span></p>
-              <div class="card-price">
-                <span class="sign">+</span>
-                <span class="price">$34.99</span>
-              </div>
-            </div>
-          </div>
-          <div class="card">
-            <picture class="card-img-container">
-              <img
-                src="./assets/img/r1p5.jpg"
-                class="card-img"
-                alt="JLab-Audio-Headphone"
-              />
-            </picture>
-            <div class="product-info">
-              <h4><a href="#">JBuds Air Sport True Wireless</a></h4>
-              <span class="tag">New</span>
-              <p>Brand: <span>JLab Audio</span></p>
-              <div class="card-price">
-                <span class="sign">+</span>
-                <span class="price">$55.99</span>
-              </div>
-            </div>
-          </div>
-          <div class="card">
-            <picture class="card-img-container">
-              <img
-                src="./assets/img/r1p6.jpg"
-                class="card-img"
-                alt="Skullcandy-Headphone"
-              />
-            </picture>
-            <div class="product-info">
-              <h4><a href="#">Crusher Evo Over-the-Ear Wireless Headset</a></h4>
-              <span class="tag">New</span>
-              <p>Brand: <span>Skullcandy</span></p>
-              <div class="card-price">
-                <span class="sign">+</span>
-                <span class="price">$149.99</span>
-              </div>
+        <div class="card">
+          <picture class="card-img-container">
+            <img src="./assets/img/r1p3.jpg" class="card-img" alt="sony-headphone" />
+          </picture>
+          <div class="product-info">
+            <h4><a href="#">Wired Earbud Headphones</a></h4>
+            <span class="tag">New</span>
+            <p>Brand: <span>Sony</span></p>
+            <div class="card-price">
+              <span class="sign">+</span>
+              <span class="price">$29.99</span>
             </div>
           </div>
         </div>
-      </section>
-    </main>
-    <footer>
-      <div class="about">
-        <img src="./assets/img/logo.png" alt="company-logo" class="logo" />
-        <p>
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Debitis
-          illum tempora sequi veritatis illo! Dolorum sunt possimus vero,
-          consequatur quo neque tenetur, totam cumque, rerum illum quia
-          blanditiis nisi ipsa dolor repellat?
-        </p>
-      </div>
-      <div class="footer-categories">
-        <h4>Categories</h4>
-        <ul>
-          <li><a href="#">Speakers</a></li>
-          <li><a href="#">Home Audio</a></li>
-          <li><a href="#">Microphones</a></li>
-          <li><a href="#">Headsets</a></li>
-          <li><a href="#">Accessories</a></li>
-        </ul>
-      </div>
-      <div class="footer-navigation">
-        <h4>Navigation</h4>
-        <ul>
-          <li><a href="#">Home</a></li>
-          <li><a href="#">Sign In</a></li>
-          <li><a href="#">Sign Up</a></li>
-          <li><a href="#">Terms & Conditions</a></li>
-          <li><a href="#">FAQ</a></li>
-          <li><a href="#">Help</a></li>
-        </ul>
-      </div>
-      <div class="footer-menu">
-        <div class="menu-btn">
-          COUNTRY <a href="#" class="white-btn">U.S.</a>
+        <div class="card">
+          <picture class="card-img-container">
+            <img src="./assets/img/r1p4.jpg" class="card-img" alt="Sesh-Evo-True-Wireless-In-Ear" />
+          </picture>
+          <div class="product-info">
+            <h4><a href="#">Sesh Evo True Wireless In-Ear</a></h4>
+            <span class="tag">New</span>
+            <p>Brand: <span>Skullcandy</span></p>
+            <div class="card-price">
+              <span class="sign">+</span>
+              <span class="price">$34.99</span>
+            </div>
+          </div>
         </div>
-        <div class="menu-btn">
-          LANGUAGE <a href="#" class="white-btn">English</a>
+        <div class="card">
+          <picture class="card-img-container">
+            <img src="./assets/img/r1p5.jpg" class="card-img" alt="JLab-Audio-Headphone" />
+          </picture>
+          <div class="product-info">
+            <h4><a href="#">JBuds Air Sport True Wireless</a></h4>
+            <span class="tag">New</span>
+            <p>Brand: <span>JLab Audio</span></p>
+            <div class="card-price">
+              <span class="sign">+</span>
+              <span class="price">$55.99</span>
+            </div>
+          </div>
         </div>
-        <div class="menu-btn">
-          CURRENCY <a href="#" class="white-btn">U.S. Dolars</a>
+        <div class="card">
+          <picture class="card-img-container">
+            <img src="./assets/img/r1p6.jpg" class="card-img" alt="Skullcandy-Headphone" />
+          </picture>
+          <div class="product-info">
+            <h4><a href="#">Crusher Evo Over-the-Ear Wireless Headset</a></h4>
+            <span class="tag">New</span>
+            <p>Brand: <span>Skullcandy</span></p>
+            <div class="card-price">
+              <span class="sign">+</span>
+              <span class="price">$149.99</span>
+            </div>
+          </div>
         </div>
       </div>
-      <div class="copyright">
-        <p>
-          Copyright&copy; 2015 Ampert.com. All Rights Reserved. Designed by
-          Mohammed Awad
-        </p>
-        <div class="footer-icons d-mobile-none">
-            <i class="fa fa-yahoo" aria-hidden="true"></i>
-            <i class="fa fa-google-plus" aria-hidden="true"></i>
-            <i class="fa fa-linkedin" aria-hidden="true"></i>
-            <i class="fa fa-twitter" aria-hidden="true"></i>
-            <i class="fa fa-facebook" aria-hidden="true"></i>
+    </section>
+    <section class="section-container">
+      <h4 class="dept-header">
+        <i class="fa fa-lg fa-headphones" aria-hidden="true"></i> Headphone
+        <span class="dept-header-details">(Headsets, Wireless and Sports)</span>
+      </h4>
+      <div class="grid">
+        <div class="card">
+          <picture class="card-img-container">
+            <img src="./assets/img/r1p1.jpg" class="card-img" alt="Headphone Razer Kraken X" />
+          </picture>
+          <div class="product-info">
+            <h4><a href="#">Kraken X Wired Gaming Headset</a></h4>
+            <span class="tag">New</span>
+            <p>Brand: <span>Razer</span></p>
+            <div class="card-price">
+              <span class="sign">+</span>
+              <span class="price">$44.99</span>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <picture class="card-img-container">
+            <img src="./assets/img/r1p2.jpg" class="card-img" alt="Sennheiser-Headphone" />
+          </picture>
+          <div class="product-info">
+            <h4><a href="#">Wireless Over-the-Ear Headphones</a></h4>
+            <span class="tag">New</span>
+            <p>Brand: <span>Sennheiser</span></p>
+            <div class="card-price">
+              <span class="sign">+</span>
+              <span class="price">$199.99</span>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <picture class="card-img-container">
+            <img src="./assets/img/r1p3.jpg" class="card-img" alt="sony-headphone" />
+          </picture>
+          <div class="product-info">
+            <h4><a href="#">Wired Earbud Headphones</a></h4>
+            <span class="tag">New</span>
+            <p>Brand: <span>Sony</span></p>
+            <div class="card-price">
+              <span class="sign">+</span>
+              <span class="price">$29.99</span>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <picture class="card-img-container">
+            <img src="./assets/img/r1p4.jpg" class="card-img" alt="Sesh-Evo-True-Wireless-In-Ear" />
+          </picture>
+          <div class="product-info">
+            <h4><a href="#">Sesh Evo True Wireless In-Ear</a></h4>
+            <span class="tag">New</span>
+            <p>Brand: <span>Skullcandy</span></p>
+            <div class="card-price">
+              <span class="sign">+</span>
+              <span class="price">$34.99</span>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <picture class="card-img-container">
+            <img src="./assets/img/r1p5.jpg" class="card-img" alt="JLab-Audio-Headphone" />
+          </picture>
+          <div class="product-info">
+            <h4><a href="#">JBuds Air Sport True Wireless</a></h4>
+            <span class="tag">New</span>
+            <p>Brand: <span>JLab Audio</span></p>
+            <div class="card-price">
+              <span class="sign">+</span>
+              <span class="price">$55.99</span>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <picture class="card-img-container">
+            <img src="./assets/img/r1p6.jpg" class="card-img" alt="Skullcandy-Headphone" />
+          </picture>
+          <div class="product-info">
+            <h4><a href="#">Crusher Evo Over-the-Ear Wireless Headset</a></h4>
+            <span class="tag">New</span>
+            <p>Brand: <span>Skullcandy</span></p>
+            <div class="card-price">
+              <span class="sign">+</span>
+              <span class="price">$149.99</span>
+            </div>
+          </div>
         </div>
       </div>
-    </footer>
-  </body>
+    </section>
+  </main>
+  <footer>
+    <div class="about">
+      <img src="./assets/img/logo.png" alt="company-logo" class="logo" />
+      <p>
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Debitis
+        illum tempora sequi veritatis illo! Dolorum sunt possimus vero,
+        consequatur quo neque tenetur, totam cumque, rerum illum quia
+        blanditiis nisi ipsa dolor repellat?
+      </p>
+    </div>
+    <div class="footer-categories">
+      <h4>Categories</h4>
+      <ul>
+        <li><a href="#">Speakers</a></li>
+        <li><a href="#">Home Audio</a></li>
+        <li><a href="#">Microphones</a></li>
+        <li><a href="#">Headsets</a></li>
+        <li><a href="#">Accessories</a></li>
+      </ul>
+    </div>
+    <div class="footer-navigation">
+      <h4>Navigation</h4>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Sign In</a></li>
+        <li><a href="#">Sign Up</a></li>
+        <li><a href="#">Terms & Conditions</a></li>
+        <li><a href="#">FAQ</a></li>
+        <li><a href="#">Help</a></li>
+      </ul>
+    </div>
+    <div class="footer-menu">
+      <div class="menu-btn">
+        COUNTRY <a href="#" class="white-btn">U.S.</a>
+      </div>
+      <div class="menu-btn">
+        LANGUAGE <a href="#" class="white-btn">English</a>
+      </div>
+      <div class="menu-btn">
+        CURRENCY <a href="#" class="white-btn">U.S. Dolars</a>
+      </div>
+    </div>
+    <div class="copyright">
+      <p>
+        Copyright&copy; 2015 Ampert.com. All Rights Reserved. Designed by
+        Mohammed Awad
+      </p>
+      <div class="footer-icons d-mobile-none">
+        <i class="fa fa-yahoo" aria-hidden="true"></i>
+        <i class="fa fa-google-plus" aria-hidden="true"></i>
+        <i class="fa fa-linkedin" aria-hidden="true"></i>
+        <i class="fa fa-twitter" aria-hidden="true"></i>
+        <i class="fa fa-facebook" aria-hidden="true"></i>
+      </div>
+    </div>
+  </footer>
+</body>
+
 </html>
