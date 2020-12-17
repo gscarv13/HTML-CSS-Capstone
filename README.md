@@ -24,8 +24,8 @@ Visit the live version on the link above.
 
 To get a local copy follow these simple steps:
 
-- Download the .zip file by clicking on the green button "Code" above.
-- Extract all files into the desired folder. 
+- Use `git clone https://github.com/gscarv13/HTML-CSS-Capstone.git`
+- Move to the directory where the project was cloned to. 
 - Open the index.html file in your browser.
 
 
