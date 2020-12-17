@@ -1,6 +1,6 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# HTML-CSS Capstone
+# Ampert - Online Audio Equipment Shop
 
 ![screenshot](./assets/img/smartmockups.png)
 
