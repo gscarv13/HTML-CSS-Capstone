@@ -4,7 +4,7 @@
 
 ![screenshot](./assets/img/smartmockups.png)
 
-This project is the last part of Microverse's HTML and CSS module. It consists of two responsive pages of an online audio equipment shop. Design provided by Mohammed Awad on [Behance](https://www.behance.net/gallery/24796463/ZATTIX).
+This project is the last part of Microverse's HTML and CSS module. It consists of two responsive pages of an online audio equipment shop. Design provided by [Mohammed Awad on Behance](https://www.behance.net/gallery/24796463/ZATTIX).
 
 ## Built With
 
