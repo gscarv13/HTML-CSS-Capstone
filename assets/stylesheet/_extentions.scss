@@ -1,0 +1,29 @@
+%px-1 {
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+%px-2 {
+  padding-left: 3rem;
+  padding-right: 3rem;
+}
+
+%px-3 {
+  padding-left: 4rem;
+  padding-right: 4rem;
+}
+
+%flex-between {
+  display: flex;
+  justify-content: space-between;
+}
+
+%flex-column {
+  display: flex;
+  flex-direction: column;
+}
+
+%ul-style-none {
+  list-style: none;
+  text-decoration: none;
+}

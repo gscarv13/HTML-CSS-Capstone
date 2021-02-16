@@ -1,0 +1,109 @@
+@import "_var.scss";
+
+@media only screen and (max-width: 767px) {
+  .d-mobile-none {
+    display: none;
+  }
+
+  .buy-links {
+    display: none;
+  }
+
+  .nav-main {
+    padding-left: 5px;
+    padding-right: 5px;
+
+    a {
+      font-size: 12px;
+    }
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .d-mid-none {
+    display: none;
+  }
+
+  .card-price-result {
+    display: none;
+  }
+
+  .grid {
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  }
+
+  .grid-results {
+    padding: 50px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin: 0;
+  }
+
+  .card-result {
+    background-color: #fafafa;
+    width: 90%;
+    border: none;
+    border-top: #ccc solid 1px;
+    border-bottom: #ccc solid 1px;
+    box-shadow: none;
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: space-around;
+  }
+
+  .info-result {
+    margin-left: 30px;
+    align-self: auto;
+    height: 3rem;
+
+    p {
+      margin: 10px 0;
+    }
+  }
+
+  .list-img {
+    display: block;
+    max-height: 200px;
+    max-width: 100%;
+  }
+
+  footer {
+    padding: 0;
+    padding-top: 50px;
+    grid-template-areas: "about navigation categories btns" "copyr copyr copyr copyr";
+  }
+
+  .about {
+    width: 300px;
+  }
+
+  .copyright {
+    width: 92%;
+  }
+
+  .container {
+    display: flex;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .nav-login {
+    display: flex;
+  }
+
+  .nav-main {
+    padding: 0 80px;
+  }
+
+  .right-arrow {
+    display: inline;
+  }
+
+  .left-arrow {
+    display: inline;
+  }
+}

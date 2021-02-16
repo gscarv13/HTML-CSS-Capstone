@@ -1,0 +1,119 @@
+@import '_var.scss';
+@import '_extentions.scss';
+
+.header-top {
+  @extend %flex-column;
+
+  align-items: center;
+  justify-content: center;
+  font-family: $gotham-bold;
+  color: #fff;
+  font-size: 35px;
+  height: 250px;
+  background-color: $pink;
+
+  h1 {
+    font-family: "Audiowide", sans-serif;
+  }
+
+  form {
+    display: flex;
+    margin-top: 20px;
+
+    input {
+      font-family: $helvetica-m;
+      border: #ccc solid 0.2px;
+      padding: 10px 5px;
+    }
+
+    select {
+      font-family: $helvetica-m;
+      border: #ccc solid 0.2px;
+    }
+
+    button {
+      font-size: 15px;
+      color: $gray;
+      background-color: $dark;
+      padding: 5px 25px;
+      font-family: $helvetica-m;
+      border: none;
+      border-radius: 3px;
+      margin-left: 10px;
+    }
+  }
+}
+
+.deals-h3 {
+  margin-bottom: 30px;
+  color: $gray;
+  font-family: $helvetica-b;
+}
+
+.deals-container {
+  padding: 50px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.deals-img {
+  width: 200px;
+}
+
+.deals-title {
+  color: $pink;
+  font-family: $helvetica-b;
+  font-size: 18px;
+}
+
+.text-deal {
+  width: 500px;
+  margin-top: 50px;
+  margin-left: 50px;
+
+  p {
+    color: $dark;
+    font-family: $helvetica-m;
+    margin-top: 30px;
+  }
+}
+
+.deals-btn {
+  margin-top: 30px;
+  width: 280px;
+  display: flex;
+  border-radius: 8px;
+  border: $pink 2px solid;
+
+  p {
+    margin: 0;
+  }
+}
+
+.deals-icon {
+  color: $pink;
+  border-radius: 100%;
+  padding: 10px 13px;
+  border: #ccc solid 1px;
+  margin: 0 15px;
+}
+
+.price-btn {
+  text-align: center;
+  color: #fff;
+  background-color: $pink;
+  padding: 5px;
+  font-family: $helvetica-m;
+  width: 80px;
+  border-right: #9b3b49 solid 1px;
+}
+
+.buy-btn {
+  text-align: center;
+  width: 100%;
+  color: #fff;
+  background-color: $pink;
+  padding: 5px;
+  font-family: $helvetica-m;
+}

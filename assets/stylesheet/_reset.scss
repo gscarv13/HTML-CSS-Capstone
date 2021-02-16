@@ -1,0 +1,15 @@
+@import "_var.scss";
+
+a {
+  text-decoration: none;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: $gotham-light;
+}
+
+main {
+  background-color: #fafafa;
+}

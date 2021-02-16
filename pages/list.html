@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="../assets/stylesheet/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Audiowide&display=swap" rel="stylesheet">
+    <title>Ampert</title>
+</head>
+
+<body>
+    <nav class="nav-main">
+        <div class="nav-items">
+            <a href="#" class="logo"><img src="../assets/img/logo.png" alt="logo" /></a>
+
+            <a href="#" class="link-highlight"><i class="fa fa-home" aria-hidden="true"></i> Home</a>
+            <a href="#"><i class="fa fa-hashtag" aria-hidden="true"></i> Collections</a>
+            <a href="#"><i class="fa fa-shopping-cart" aria-hidden="true"></i> Purchase
+                List</a>
+            <a href="#" class="d-mobile-none pink-btn">Post an AD</a>
+        </div>
+
+        <div class="d-mobile-none d-mid-none nav-login">
+            <a href="#"><i class="fa fa-envelope" aria-hidden="true"></i></a>
+            <a href="#" class="d-mobile-none">Jane Doe</a>
+            <picture class="user-pic-container">
+                <img src="../assets/img/user.jpg" class="user-pic" alt="user-picture" />
+            </picture>
+        </div>
+    </nav>
+    <header class="d-mobile-none">
+        <div class="header-top header-results">
+            <h1>Ampert</h1>
+            <h3>Audio is Power</h3>
+
+            <form action="./pages/list.html">
+                <select name="depatments" id="departments">
+                    <option value="speakers">Speakers</option>
+                    <option value="home-audio">Home Audio</option>
+                    <option value="microphones">Microphones</option>
+                    <option value="headphones">Headsets</option>
+                    <option value="accessories">Accessories</option>
+                </select>
+
+                <input type="text" placeholder="Any Particular Brand?">
+                <input type="text" placeholder="What are you looking for?" size="40">
+                <button type="submit">Search</button>
+            </form>
+        </div>
+    </header>
+    <main>
+        <div class="container">
+            <aside class="filter-section d-mobile-none">
+                <div class="filter-group">
+                    <h3>Brands</h3>
+                    <div class="checkbox-item">
+                        <input type="checkbox">
+                        <span>Klipsch</span>
+                    </div>
+                    <div class="checkbox-item">
+                        <input type="checkbox">
+                        <span>Bowers & Wilkins</span>
+                    </div>
+                    <div class="checkbox-item">
+                        <input type="checkbox">
+                        <span>KEF</span>
+                    </div>
+                    <div class="checkbox-item">
+                        <input type="checkbox">
+                        <span>Polk Audio</span>
+                    </div>
+                    <div class="checkbox-item">
+                        <input type="checkbox">
+                        <span>Bose</span>
+                    </div>
+                </div>
+                <div class="filter-group">
+                    <h3>Features</h3>
+                    <div class="checkbox-item">
+                        <input type="checkbox">
+                        <span>Bluetooth</span>
+                    </div>
+                    <div class="checkbox-item">
+                        <input type="checkbox">
+                        <span>Integrated Amplifier</span>
+                    </div>
+                    <div class="checkbox-item">
+                        <input type="checkbox">
+                        <span>Wireless Connectivity</span>
+                    </div>
+                    <div class="checkbox-item">
+                        <input type="checkbox">
+                        <span>Pairing Technology</span>
+                    </div>
+                </div>
+                <div class="filter-group">
+                    <h3>Current Deals</h3>
+                    <div class="checkbox-item">
+                        <input type="checkbox">
+                        <span>On Sale</span>
+                    </div>
+                    <div class="checkbox-item">
+                        <input type="checkbox">
+                        <span>Free Shipping Eligible</span>
+                    </div>
+                    <div class="checkbox-item">
+                        <input type="checkbox">
+                        <span>Package Deals</span>
+                    </div>
+                </div>
+            </aside>
+            <div class="result-container">
+                <p>Your search returned 5 items</p>
+                <div class="grid grid-results">
+                    <div class="card card-result">
+                        <picture class="result-img-container">
+                            <img src="../assets/img/result1.jpg" class="card-img list-img"
+                                alt="Headphone Razer Kraken X">
+                        </picture>
+                        <div class="product-info info-result">
+                            <h4><a href="#">Reference 4" 35W 2-Way Powered Monitors</a>
+                            </h4>
+                            <span class="tag">New</span>
+                            <p class="text-result">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deserunt
+                                quia repellendus numquam
+                            </p>
+                            <p>Brand: <span>Klipsch</span></p>
+                            <div class="buy-links">
+                                <a href="#" class="price-btn">$99</a>
+                                <a href="#" class="buy-btn">
+                                    <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                                    Purchase Details
+                                </a>
+                            </div>
+                            <div class="card-price-result">
+                                <span class="sign">+</span>
+                                <span class="price">$44.99</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card card-result">
+                        <picture class="result-img-container">
+                            <img src="../assets/img/result2.jpg" class="card-img list-img" alt="hometheater-system">
+                        </picture>
+                        <div class="product-info info-result">
+                            <h4><a href="#">Home Theater System - Black</a>
+                            </h4>
+                            <span class="tag">New</span>
+                            <p class="text-result">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deserunt
+                                quia repellendus numquam
+                            </p>
+                            <p>Brand: <span>Boytone</span></p>
+                            <div class="buy-links">
+                                <a href="#" class="price-btn">$99</a>
+                                <a href="#" class="buy-btn">
+                                    <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                                    Purchase Details
+                                </a>
+                            </div>
+                            <div class="card-price-result">
+                                <span class="sign">+</span>
+                                <span class="price">$64.99</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card card-result">
+                        <picture class="result-img-container">
+                            <img src="../assets/img/result3.jpg" class="card-img list-img" alt="Home-speaker">
+                        </picture>
+                        <div class="product-info info-result">
+                            <h4><a href="#">Home Speaker 300 Wireless Smart Speaker </a>
+                            </h4>
+                            <span class="tag">New</span>
+                            <p class="text-result">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deserunt
+                                quia repellendus numquam
+                            </p>
+                            <p>Brand: <span>Bose</span></p>
+                            <div class="buy-links">
+                                <a href="#" class="price-btn">$199.99</a>
+                                <a href="#" class="buy-btn">
+                                    <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                                    Purchase Details
+                                </a>
+                            </div>
+                            <div class="card-price-result">
+                                <span class="sign">+</span>
+                                <span class="price">$44.99</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card card-result">
+                        <picture class="result-img-container">
+                            <img src="../assets/img/result4.jpg" class="card-img list-img" alt="jlab-audio-microphone">
+                        </picture>
+                        <div class="product-info info-result">
+                            <h4><a href="#">TALK GO Plug & Play USB Microphone</a>
+                            </h4>
+                            <span class="tag">New</span>
+                            <p class="text-result">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deserunt
+                                quia repellendus numquam
+                            </p>
+                            <p>Brand: <span>JLab Audio</span></p>
+                            <div class="buy-links">
+                                <a href="#" class="price-btn">$99</a>
+                                <a href="#" class="buy-btn">
+                                    <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                                    Purchase Details
+                                </a>
+                            </div>
+                            <div class="card-price-result">
+                                <span class="sign">+</span>
+                                <span class="price">$49.99</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card card-result">
+                        <picture class="result-img-container">
+                            <img src="../assets/img/result5.jpg" class="card-img list-img"
+                                alt="Audio-Technica-turntable">
+                        </picture>
+                        <div class="product-info info-result">
+                            <h4><a href="#">Bluetooth Stereo Turntable - Black</a>
+                            </h4>
+                            <span class="tag">New</span>
+                            <p class="text-result">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deserunt
+                                quia repellendus numquam
+                            </p>
+                            <p>Brand: <span>Audio-Technica</span></p>
+                            <div class="buy-links">
+                                <a href="#" class="price-btn">$299,99</a>
+                                <a href="#" class="buy-btn">
+                                    <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                                    Purchase Details
+                                </a>
+                            </div>
+                            <div class="card-price-result">
+                                <span class="sign">+</span>
+                                <span class="price">$44.99</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <nav class="nav-page">
+                    <a class="white-btn" href="#"> 1 </a>
+                    <a class="white-btn" href="#"> 2 </a>
+                    <a class="white-btn" href="#"> 3 </a>
+                    <a class="white-btn" href="#"> 4 </a>
+                    <span> ... </span>
+                    <a class="white-btn" href="#"> 7 </a>
+                </nav>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="about">
+            <img src="../assets/img/logo.png" alt="company-logo" class="logo" />
+            <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Debitis
+                illum tempora sequi veritatis illo! Dolorum sunt possimus vero,
+                consequatur quo neque tenetur, totam cumque, rerum illum quia
+                blanditiis nisi ipsa dolor repellat?
+            </p>
+        </div>
+        <div class="footer-categories">
+            <h4>Categories</h4>
+            <ul>
+                <li><a href="#">Speakers</a></li>
+                <li><a href="#">Home Audio</a></li>
+                <li><a href="#">Microphones</a></li>
+                <li><a href="#">Headsets</a></li>
+                <li><a href="#">Accessories</a></li>
+            </ul>
+        </div>
+        <div class="footer-navigation">
+            <h4>Navigation</h4>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Sign In</a></li>
+                <li><a href="#">Sign Up</a></li>
+                <li><a href="#">Terms & Conditions</a></li>
+                <li><a href="#">FAQ</a></li>
+                <li><a href="#">Help</a></li>
+            </ul>
+        </div>
+        <div class="footer-menu">
+            <div class="menu-btn">
+                COUNTRY <a href="#" class="white-btn">U.S.</a>
+            </div>
+            <div class="menu-btn">
+                LANGUAGE <a href="#" class="white-btn">English</a>
+            </div>
+            <div class="menu-btn">
+                CURRENCY <a href="#" class="white-btn">U.S. Dolars</a>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>
+                Copyright&copy; 2015 Ampert.com. All Rights Reserved. Designed by
+                Mohammed Awad
+            </p>
+            <div class="footer-icons d-mobile-none">
+                <i class="fa fa-yahoo" aria-hidden="true"></i>
+                <i class="fa fa-google-plus" aria-hidden="true"></i>
+                <i class="fa fa-linkedin" aria-hidden="true"></i>
+                <i class="fa fa-twitter" aria-hidden="true"></i>
+                <i class="fa fa-facebook" aria-hidden="true"></i>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
